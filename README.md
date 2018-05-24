@@ -9,3 +9,13 @@
 
 ---  
 
+### ショートカット  
+
+- fn + del : 削除
+
+
+---  
+
+### リンク  
+
+- 下絵を挿入（[https://blender-cg.net/background-images/](https://blender-cg.net/background-images/)）  
