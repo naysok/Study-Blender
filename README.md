@@ -11,7 +11,19 @@
 
 ### ショートカット  
 
-- fn + del : 削除
+- 全般  
+  - fn + del : 削除  
+  - テンキー5 : persepective ←→ Orthgraph 切り替え
+
+- オブジェクトモード  
+  - hoge  
+
+- 編集モード
+  - cntrl + R : （面を選んでから）エッジを挿入  
+  - F : 面貼り、ブリッジ  
+  - A : メッシュ全体を選択  
+  - Cntrl + N : メッシュの面裏を再計算   
+
 
 
 ---  
@@ -19,3 +31,7 @@
 ### リンク  
 
 - 下絵を挿入（[https://blender-cg.net/background-images/](https://blender-cg.net/background-images/)）  
+
+- サーフェスでのモデリング（[http://riotoqll.hatenablog.com/entry/2014/02/10/162604](http://riotoqll.hatenablog.com/entry/2014/02/10/162604)）  
+
+- モデリング練習に使える？模写、猫（[https://www.thingiverse.com/thing:683053](https://www.thingiverse.com/thing:683053)）  
