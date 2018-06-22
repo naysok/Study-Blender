@@ -30,7 +30,7 @@
 
 ### 背景として簡易スタジオを作る  
 
-詳しくはこっちに（[]()）  
+詳しくはこっちに（[https://github.com/naysok/Study-Blender/blob/master/Studio.md](https://github.com/naysok/Study-Blender/blob/master/Studio.md)）  
 
 ![photo](photo/Studio-02.png)  
 ![photo](photo/Studio-01.png)  
