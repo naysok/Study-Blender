@@ -39,6 +39,9 @@
 
 ### リンク  
 
+- cycles でのノイズ対策（[http://ch.nicovideo.jp/Arasen/blomaga/ar475887](http://ch.nicovideo.jp/Arasen/blomaga/ar475887)）  
+  - レンダータブ > サンプリング > 設定 > 間接値を制限 > 1.0  
+
 - 下絵を挿入（[https://blender-cg.net/background-images/](https://blender-cg.net/background-images/)）  
 
 - サーフェスでのモデリング（[http://riotoqll.hatenablog.com/entry/2014/02/10/162604](http://riotoqll.hatenablog.com/entry/2014/02/10/162604)）  
