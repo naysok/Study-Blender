@@ -1,5 +1,14 @@
 # Studio  
 
+---  
+
+Blender File はこれ（↓）  
+[https://github.com/naysok/Study-Blender/blob/master/Studio-Files/Studio.blend](https://github.com/naysok/Study-Blender/blob/master/Studio-Files/Studio.blend)
+
+---  
+
+### how to  
+
 (1) 平面を作る  
 
 (2) オブジェクトモードに移ってエッジを選択  
@@ -14,4 +23,3 @@
 
 ![photo](photo/Studio-01.png)  
 
-Blender File はこれ（↓）  
