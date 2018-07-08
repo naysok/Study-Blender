@@ -11,4 +11,7 @@
 (5) シェーディングの設定は、フラットからスムーズに変更  
 
 ![photo](photo/Studio-02.png)  
+
 ![photo](photo/Studio-01.png)  
+
+Blender File はこれ（↓）  
