@@ -31,10 +31,10 @@
 
 ### 背景として簡易スタジオを作る  
 
-詳しくはこっちに（[https://github.com/naysok/Study-Blender/blob/master/Studio.md](https://github.com/naysok/Study-Blender/blob/master/Studio.md)）  
+詳しくはこっちに（[Studio.md](https://github.com/naysok/Study-Blender/blob/master/Studio/Studio.md)）  
 
-![photo](photo/Studio-02.png)  
-![photo](photo/Studio-01.png)  
+![photo](Studio/photo/Studio-02.png)  
+![photo](Studio/photo/Studio-01.png)  
 
 ---  
 
