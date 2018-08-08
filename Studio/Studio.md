@@ -3,7 +3,7 @@
 ---  
 
 Blender File はこれ（↓）  
-[https://github.com/naysok/Study-Blender/blob/master/Studio-Files/Studio.blend](https://github.com/naysok/Study-Blender/blob/master/Studio-Files/Studio.blend)
+
 
 ---  
 
