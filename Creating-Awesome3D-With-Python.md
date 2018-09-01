@@ -126,13 +126,16 @@ bpy.ops.mesh.primitive_cube_add(location=(0,0,0))
 
 for i in range(250):
   cube = bpy.data.objects[bpy.context.object.name]
-  cube.location.z = sin(i*0.1)
+  cube.location.z = sin(i*0.1)*2
   cube.rotation_euler.x = i*0.05
   cube.rotation_euler.y = i*0.025
+  cube.scale.y = (1.05+sin(i*0.075))
   bpy.context.scene.update()
   cube.keyframe_insert(data_path = 'location', index = 2, frame = i) # index : 0=x, 1=y, 2=z
   cube.keyframe_insert(data_path = "rotation_euler", index=0, frame=i)
   cube.keyframe_insert(data_path = "rotation_euler", index=1, frame=i)
+  cube.keyframe_insert(data_path = "scale", index=1, frame=i)
+
 
 ```
 
