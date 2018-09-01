@@ -4,6 +4,9 @@
 
 ### index  
 
+- Creating-Awesome3D-With-Python.md  
+  // 誰かのpyCon2016 の発表  
+
 - Scripting_for_Artist.md  
   // python の チュートリアル  
   // よくわからんところで終わるので良くない  
