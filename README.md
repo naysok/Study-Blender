@@ -1,5 +1,19 @@
 # Study-Blender  
 
+
+
+### index  
+
+- Scripting_for_Artist.md  
+  // python の チュートリアル  
+  // よくわからんところで終わるので良くない  
+
+- Studio  
+  // 背景用の板。データ有り。  
+
+
+---  
+
 無料(!)の 3D CG ソフト。  
 [https://www.blender.org/](https://www.blender.org/)  
 

@@ -2,6 +2,7 @@
 
 180902  
 
+このビデオは、よくわからないところで終わるのでよくない  
 
 [https://www.youtube.com/watch?v=hfYgCwC_4iE](https://www.youtube.com/watch?v=hfYgCwC_4iE)  
 
@@ -97,5 +98,8 @@ C.active_object.animation_data_create()
 データパスをコピー  
 ![photo](photo/Scripting_for_Artist_DataPath.png)
 
+---  
+
+よくわからんところで終わり、萎えた。
 
 
