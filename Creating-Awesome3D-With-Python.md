@@ -120,16 +120,26 @@ bpy.context.scene.objects.link(o)
 ```python
 import bpy  
 from math import sin
+from math import cos
+from math import pi
 
 # Add cube (box) object
 bpy.ops.mesh.primitive_cube_add(location=(0,0,0))
 
-for i in range(250):
+x = 361
+
+for i in range(x):
+  old_value = i
+  old_min = 0
+  old_max = x-1
+  new_min = 0
+  new_max = 2*pi
+  new_value = ((old_value - old_min) / (old_max - old_min)) * (new_max - new_min) + new_min
   cube = bpy.data.objects[bpy.context.object.name]
-  cube.location.z = sin(i*0.1)*2
-  cube.rotation_euler.x = i*0.05
-  cube.rotation_euler.y = i*0.025
-  cube.scale.y = (1.05+sin(i*0.075))
+  cube.location.z = cos(new_value*7)*2
+  cube.rotation_euler.x = new_value*5
+  cube.rotation_euler.y = new_value*3
+  cube.scale.y = (2+sin(new_value*4)*1.25)
   bpy.context.scene.update()
   cube.keyframe_insert(data_path = 'location', index = 2, frame = i) # index : 0=x, 1=y, 2=z
   cube.keyframe_insert(data_path = "rotation_euler", index=0, frame=i)
