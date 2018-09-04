@@ -4,8 +4,14 @@
 
 ### index  
 
+- Blender-API-Intro.md  
+  // 日本語でググって出て来たもの  
+
 - Creating-Awesome3D-With-Python.md  
   // 誰かのpyCon2016 の発表  
+
+- Intro-To-Python-Scripting-In-Blender.md  
+  // 適当に送りながら見たけど、なんかのアドオンの紹介してるようにみえたのでやめた  
 
 - Scripting_for_Artist.md  
   // python の チュートリアル  
@@ -13,6 +19,10 @@
 
 - Studio  
   // 背景用の板。データ有り。  
+
+
+
+Python スクリプティングの資料がほとんどないな...
 
 
 ---  
