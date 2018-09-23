@@ -4,27 +4,19 @@
 
 ### index  
 
-- Blender-API-Intro.md  
-  // 日本語でググって出て来たもの  
+- Blender-API-Intro // 日本語でググって出て来たもの  
 
-- Creating-Awesome3D-With-Python.md  
-  // 誰かのpyCon2016 の発表  
+- Creating-Awesome3D-With-Python // 誰かのpyCon2016 の発表, モデル有り  
 
-- How-to-Create-3D-Objects-With-Python.md  
-  // 適当に基礎、概要欄に良い参考リンクがあった  
+- How-to-Create-3D-Objects-With-Python // 適当に基礎、概要欄に良い参考リンクがあった  
 
-- Intro-To-Python-Scripting-In-Blender.md  
-  // 適当に送りながら見たけど、なんかのアドオンの紹介してるようにみえたのでやめた  
+- Intro-To-Python-Scripting-In-Blender // 適当に送りながら見たけど、なんかのアドオンの紹介してるようにみえたのでやめた  
 
-- Nathan-s-Blender-Python.md  
-  // Proving Ground の人の良い資料を写経（Python 2.6 なのでちょっと違うかも）  
+- Nathan-s-Blender-Python // Proving Ground の人の良い資料を写経（Python 2.6 なのでちょっと違うかも）  
 
-- Scripting_for_Artist.md  
-  // python の チュートリアル  
-  // よくわからんところで終わるので良くない  
+- Scripting_for_Artist // よくわからんところで終わるので良くない  
 
-- Studio  
-  // 背景用の板。データ有り。  
+- Studio // 背景用の板の作り方メモ。データ有り。  
 
 
 
@@ -71,7 +63,7 @@ Python スクリプティングの資料がほとんどないな...
 
 ---  
 
-### リンク  
+### Ref.  
 
 - cycles でのノイズ対策（[http://ch.nicovideo.jp/Arasen/blomaga/ar475887](http://ch.nicovideo.jp/Arasen/blomaga/ar475887)）  
   - レンダータブ > サンプリング > 設定 > 間接値を制限 > 1.0  
