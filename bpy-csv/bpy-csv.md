@@ -12,6 +12,10 @@ pandas は、i X j で、csv にアクセスできるので便利だけど、
 位置関係や、変形、マテリアルなど。  
 
 
+結果↓  
+[![](https://img.youtube.com/vi/5v_j0n8Drtc/0.jpg)](https://www.youtube.com/watch?v=5v_j0n8Drtc)  
+
+
 ---  
 
 
