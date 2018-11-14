@@ -44,7 +44,7 @@ for i in range(50):
   )
 
 ```
-![photo](photo/Creating-Awesome3D-With-Python-Random.png)  
+![photo](../photo/Creating-Awesome3D-With-Python-Random.png)  
 
 
 ---  
@@ -64,7 +64,7 @@ for i in range(100):
   )
 
 ```
-![photo](photo/Creating-Awesome3D-With-Python-Sine-Array.png)  
+![photo](../photo/Creating-Awesome3D-With-Python-Sine-Array.png)  
 
 
 ---  
@@ -106,7 +106,7 @@ bpy.context.scene.objects.link(o)
 
 ```
 
-![photo](photo/Creating-Awesome3D-With-Python-Sine-Mesh.png)  
+![photo](../photo/Creating-Awesome3D-With-Python-Sine-Mesh.png)  
 
 
 ---  
@@ -352,6 +352,6 @@ for i in range(361):
 
 
 
-![photo](photo/Creating-Awesome3D-With-Python-Animation.png)  
+![photo](../photo/Creating-Awesome3D-With-Python-Animation.png)  
 
 
