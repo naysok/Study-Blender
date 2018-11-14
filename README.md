@@ -2,27 +2,50 @@
 
 
 
-### index  
+### memo  
 
-- Creating-Awesome3D-With-Python // 誰かのpyCon2016 の発表, モデル有り  
+- Studio
+  - 背景用の板の作り方メモ。データ有り。  
+  [https://github.com/naysok/Study-Blender/blob/master/Studio/Studio.md](https://github.com/naysok/Study-Blender/blob/master/Studio/Studio.md)  
 
-- Studio // 背景用の板の作り方メモ。データ有り。  
 
-- bpy-csv // Blender の Python で、csv ファイルにアクセスしキーフレームを打つ例
-  - まとめ [https://github.com/naysok/Study-Blender/blob/master/bpy-csv/bpy-csv.md](https://github.com/naysok/Study-Blender/blob/master/bpy-csv/bpy-csv.md)  
+- bpy-csv
+  - Blender の Python で、csv ファイルにアクセスしキーフレームを打つ例      [https://github.com/naysok/Study-Blender/blob/master/bpy-csv/bpy-csv.md](https://github.com/naysok/Study-Blender/blob/master/bpy-csv/bpy-csv.md)  
+
+
+---
+
+
+### Python Script 系  
+
+- Creating-Awesome3D-With-Python  
+  - 誰かのpyCon2016 の発表  
+  - random, loop, numpy のサンプル  
+  [https://github.com/naysok/Study-Blender/blob/master/Creating-Awesome3D-With-Python/Creating-Awesome3D-With-Python.md](https://github.com/naysok/Study-Blender/blob/master/Creating-Awesome3D-With-Python/Creating-Awesome3D-With-Python.md)
+
+
 
 - Blender-API-Intro // 日本語でググって出て来たもの  
+  - 特に情報なし  
+  [https://github.com/naysok/Study-Blender/blob/master/Blender-API-Intro.md](https://github.com/naysok/Study-Blender/blob/master/Blender-API-Intro.md)
 
-- How-to-Create-3D-Objects-With-Python // 適当に基礎、概要欄に良い参考リンクがあった  
-
-- Intro-To-Python-Scripting-In-Blender // 適当に送りながら見たけど、なんかのアドオンの紹介してるようにみえたのでやめた  
-
-- Nathan-s-Blender-Python // Proving Ground の人の良い資料を写経（Python 2.6 なのでちょっと違うかも）  
-
-- Scripting_for_Artist // よくわからんところで終わるので良くない  
+- How-to-Create-3D-Objects-With-Python  
+  - 適当に基礎、概要欄に良い参考リンクがあった  
+  [https://github.com/naysok/Study-Blender/blob/master/How-to-Create-3D-Objects-With-Python.md](https://github.com/naysok/Study-Blender/blob/master/How-to-Create-3D-Objects-With-Python.md)
 
 
+- Intro-To-Python-Scripting-In-Blender  
+  - 適当に送りながら見たけど、なんかのアドオンの紹介してるようにみえたのでやめた  
+  [https://github.com/naysok/Study-Blender/blob/master/Intro-To-Python-Scripting-In-Blender.md](https://github.com/naysok/Study-Blender/blob/master/Intro-To-Python-Scripting-In-Blender.md)
 
+- Nathan-s-Blender-Python  
+  - Proving Ground の人の良い資料を写経（Python 2.6 なのでちょっと違うかも）  
+  [https://github.com/naysok/Study-Blender/blob/master/Nathan-s-Blender-Python.md](https://github.com/naysok/Study-Blender/blob/master/Nathan-s-Blender-Python.md)
+
+
+- Scripting_for_Artist  
+  - よくわからんところで終わるので良くない  
+  [https://github.com/naysok/Study-Blender/blob/master/Scripting_for_Artist.md](https://github.com/naysok/Study-Blender/blob/master/Scripting_for_Artist.md)  
 
 
 Python スクリプティングの資料がほとんどないな...
@@ -56,14 +79,6 @@ Python スクリプティングの資料がほとんどないな...
 
 ---  
 
-### 背景として簡易スタジオを作る  
-
-詳しくはこっちに（[Studio.md](https://github.com/naysok/Study-Blender/blob/master/Studio/Studio.md)）  
-
-![photo](Studio/photo/Studio-02.png)  
-![photo](Studio/photo/Studio-01.png)  
-
----  
 
 ### Ref.  
 
