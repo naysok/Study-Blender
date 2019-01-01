@@ -36,6 +36,9 @@ x
 
 ### SetUp  
 
+// 諸設定  
+
+
 Import Libraries  
 ```python
 import bpy # Blender Python API
@@ -99,6 +102,9 @@ for i in range(0, 10):
 
 
 ### MeshDefinition  
+
+// メッシュを構築する  
+
 
 複数の頂点情報から、ポリメッシュを構築する。  
 
@@ -181,10 +187,10 @@ mesh.update(calc_edges = True)
 
 ### Modifiers  
 
+// モディファイアーを操作する  
+
 
 Subdivision Modifier  
-モディファイアー  
-
 
 ```python
 import bpy
@@ -227,9 +233,17 @@ for p in mypolys:
 
 ---  
 
+
 ### MathematicalMesh  
 
+// 数式を使ってジオメトリを作る  
+
+
+wave surface  
+
 ```python
+
+
 ```
 
 ```python
@@ -240,18 +254,19 @@ for p in mypolys:
 
 ```python
 ```
+
 
 ---  
+
 
 ### RandomMesh  
 
-```python
-```
+// random module を使ったモデリング  
 
-```python
-```
 
+import  
 ```python
+import random
 ```
 
 ```python
@@ -260,13 +275,12 @@ for p in mypolys:
 
 ---  
 
+
 ### Supershape3D  
 
-```python
-```
 
-```python
-```
+// parametric geometry  
+
 
 ```python
 ```
