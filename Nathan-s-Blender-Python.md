@@ -1,6 +1,6 @@
 # Nathan's Blender Python Notebook  
 
-180909  
+180909 -  
 
 [http://wiki.theprovingground.org/blender-python](http://wiki.theprovingground.org/blender-python)  
 
@@ -11,14 +11,14 @@
 
 ### Index  
 
-- Environment  
-- SetUp  
-- Meshes  
-- MeshDefinition  
-- Modifiers  
-- MathMesh  
-- RandomMesh  
-- Supershape3D  
+- [x] Environment  
+- [x] SetUp  
+- [ ] ~~Meshes~~  
+- [x] MeshDefinition  
+- [x] Modifiers  
+- [ ] MathematicalMesh  
+- [ ] RandomMesh  
+- [ ] Supershape3D  
 
 
 ---  
@@ -63,7 +63,7 @@ bpy.ops.mesh.primitive_cube_add(location = (x1,y1,z1))
 
 ```
 
-For Loop  
+for Loop  
 ```python
 for m in range(0,10):
     x2 = 3*m
@@ -92,9 +92,7 @@ for i in range(0, 10):
 ---  
 
 
-### Meshes  
-
-x  
+### ~~Meshes~~  
 
 
 ---  
@@ -102,6 +100,7 @@ x
 
 ### MeshDefinition  
 
+複数の頂点情報から、ポリメッシュを構築する。  
 
 4つの頂点から、Plane を作成する   
 ```python
@@ -182,21 +181,53 @@ mesh.update(calc_edges = True)
 
 ### Modifiers  
 
-```python
-```
+
+Subdivision Modifier  
+モディファイアー  
+
 
 ```python
+import bpy
+
+# Difine Vertices, Faces, edges
+verts = [(0,0,0),(0,5,0),(5,5,0),(5,0,0),(0,0,5),(0,5,5),(5,5,5),(5,0,5)]
+faces = [(0,1,2,3), (7,6,5,4), (0,4,5,1), (1,5,6,2), (2,6,7,3), (3,7,4,0)]
+
+# Define Mesh and Object
+mymesh = bpy.data.meshes.new("Cube")
+myobject = bpy.data.objects.new("Cube", mymesh)
+
+# Set Location and Scene of Object
+myobject.location = bpy.context.scene.cursor_location
+bpy.context.scene.objects.link(myobject)
+
+# Create meshes
+mymesh.from_pydata(verts, [], faces)
+mymesh.update(calc_edges = True)
+
+# Subdivide Modifier
+myobject.modifiers.new("subd", type = "SUBSURF")
+
+# Increase Subdivision
+myobject.modifiers["subd"].levels = 3
+
+# Smooth Shading
+mypolys = mymesh.polygons
+for p in mypolys:
+    p.use_smooth = True
+
 ```
 
-```python
-```
+![photo](photo/Nathan-s-Blender-Python-Subdivide.png)  
 
-```python
-```
+![photo](photo/Nathan-s-Blender-Python-Subdivide-Levels.png)  
+
+![photo](photo/Nathan-s-Blender-Python-Shading-Smooth.png)  
+
 
 ---  
 
-### MathMesh  
+### MathematicalMesh  
 
 ```python
 ```
