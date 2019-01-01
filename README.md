@@ -18,6 +18,12 @@
 
 ### Python Script 系  
 
+Blender/Python Documentation  
+
+[https://docs.blender.org/api/current/](https://docs.blender.org/api/current/)  
+
+
+
 - Creating-Awesome3D-With-Python  
   - 誰かのpyCon2016 の発表  
   - random, loop, numpy のサンプル  
