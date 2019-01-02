@@ -17,7 +17,7 @@
 - [x] MeshDefinition  
 - [x] Modifiers  
 - [x] MathematicalMesh  
-- [ ] RandomMesh  
+- [x] RandomMesh  
 - [ ] Supershape3D  
 
 
@@ -297,6 +297,7 @@ bpy.context.scene.objects.link(object)
 mesh.from_pydata(verts, [], faces)
 mesh.update(calc_edges = True)
 
+
 # Smooth Shading
 mypolys = mesh.polygons
 for p in mypolys:
@@ -315,13 +316,80 @@ for p in mypolys:
 // random module を使ったモデリング  
 
 
-import  
+ライブラリの読み込み  
 ```python
+import bpy
 import random
+
+
+# Variables
+verts = []
+faces = []
+
+numX = 20
+numY = 20
+
+amp = 0.65
+scale = 1
+
+
+# Vertices
+for i in range(0, numX):
+    for j in range(0, numY):
+        x = scale * i
+        y = scale * j
+        z = (i * random.random()) * amp
+        vert = (x,y,z)
+        verts.append(vert)
+
+
+# Faces
+count = 0
+
+for i in range(0, numY*(numX-1)):
+    if count < numY - 1:
+        A = i
+        B = i + 1
+        C = (i + numY) + 1
+        D = (i + numY)
+        # face = (A,B,C,D)
+        face = (D,C,B,A)
+        faces.append(face)
+        count = count + 1
+    else:
+        count = 0
+
+
+# Create Mesh and Object
+mymesh = bpy.data.meshes.new("random_mesh")
+myobject = bpy.data.objects.new("random_mesh", mymesh)
+
+
+# Set Mesh Location
+# myobject.location = bpy.context.scene.cursor_location
+myobject.location = (0,0,0)
+bpy.context.scene.objects.link(myobject)
+
+
+# Create Mesh from Python Data
+mymesh.from_pydata(verts, [], faces)
+mymesh.update(calc_edges = True)
+
+
+# Subdivide Modifier
+myobject.modifiers.new("subd", type = "SUBSURF")
+myobject.modifiers["subd"].levels = 3
+
+
+# Smooth Shading
+mypolys = mymesh.polygons
+for p in mypolys:
+    p.use_smooth = True
+
+
 ```
 
-```python
-```
+![photo](photo/Nathan-s-Blender-Python-RandomSurface.png)  
 
 
 ---  
