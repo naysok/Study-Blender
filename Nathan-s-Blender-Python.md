@@ -16,7 +16,7 @@
 - [ ] ~~Meshes~~  
 - [x] MeshDefinition  
 - [x] Modifiers  
-- [ ] MathematicalMesh  
+- [x] MathematicalMesh  
 - [ ] RandomMesh  
 - [ ] Supershape3D  
 
@@ -242,18 +242,69 @@ for p in mypolys:
 wave surface  
 
 ```python
+import bpy
+import math
 
+
+# Variables
+verts = []
+faces = []
+
+numX = 10
+numY = 10
+
+# wave Variables
+freq = 1
+amp = 1
+scale = 1
+
+
+# Vertices
+for i in range(0, numX):
+    for j in range(0, numY):
+        x = scale * i
+        y = scale * j
+        z = scale * ((amp*math.cos(i*freq)) + (amp*math.sin(j*freq)))
+        vert = (x,y,z)
+        verts.append(vert)
+
+
+# Faces
+count = 0
+
+for i in range(0, numY*(numX -1)):
+    if count < numX -1:
+        A = i
+        B = i + 1
+        C = (i + numY) + 1
+        D = (i + numY)
+        face = (A,B,C,D)
+        faces.append(face)
+        count = count + 1
+    else:
+        count = 0;
+
+
+# Create mesh and object
+mesh = bpy.data.meshes.new("wave")
+object = bpy.data.objects.new("wave", mesh)
+
+# Set Mesh Location
+object.location = bpy.context.scene.cursor_location
+bpy.context.scene.objects.link(object)
+
+# Create Mesh From Python data
+mesh.from_pydata(verts, [], faces)
+mesh.update(calc_edges = True)
+
+# Smooth Shading
+mypolys = mesh.polygons
+for p in mypolys:
+    p.use_smooth = True
 
 ```
 
-```python
-```
-
-```python
-```
-
-```python
-```
+![photo](photo/Nathan-s-Blender-Python-MathematicalMesh.png)  
 
 
 ---  
