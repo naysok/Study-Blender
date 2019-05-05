@@ -4,6 +4,11 @@
 
 ### memo  
 
+- Shader-Normal-Vector  
+  - Normal Vector のマテリアルの作り方。  
+  [https://github.com/naysok/Study-Blender/blob/master/Shader-Normal-Vector/Shader-Normal-Vector.md](https://github.com/naysok/Study-Blender/blob/master/Shader-Normal-Vector/Shader-Normal-Vector.md)  
+  
+
 - Studio
   - 背景用の板の作り方メモ。データ有り。  
   [https://github.com/naysok/Study-Blender/blob/master/Studio/Studio.md](https://github.com/naysok/Study-Blender/blob/master/Studio/Studio.md)  
