@@ -7,15 +7,21 @@
 - Shader-Normal-Vector  
   - Normal Vector のマテリアルの作り方。  
   [https://github.com/naysok/Study-Blender/blob/master/Shader-Normal-Vector/Shader-Normal-Vector.md](https://github.com/naysok/Study-Blender/blob/master/Shader-Normal-Vector/Shader-Normal-Vector.md)  
-  
+
 
 - Studio
-  - 背景用の板の作り方メモ。データ有り。  
+  - 背景用の板の作り方。  
   [https://github.com/naysok/Study-Blender/blob/master/Studio/Studio.md](https://github.com/naysok/Study-Blender/blob/master/Studio/Studio.md)  
 
 
+- Texture-Alpha  
+  - 透過素材の貼り方。  
+  [https://github.com/naysok/Study-Blender/blob/master/Texture-Alpha/Texture-Alpha.md](https://github.com/naysok/Study-Blender/blob/master/Texture-Alpha/Texture-Alpha.md)  
+
+
 - bpy-csv
-  - Blender の Python で、csv ファイルにアクセスしキーフレームを打つ例      [https://github.com/naysok/Study-Blender/blob/master/bpy-csv/bpy-csv.md](https://github.com/naysok/Study-Blender/blob/master/bpy-csv/bpy-csv.md)  
+  - Blender の Python で、csv ファイルにアクセスしキーフレームを打つ例。  
+    [https://github.com/naysok/Study-Blender/blob/master/bpy-csv/bpy-csv.md](https://github.com/naysok/Study-Blender/blob/master/bpy-csv/bpy-csv.md)  
 
 
 ---
