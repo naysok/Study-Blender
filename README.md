@@ -24,7 +24,7 @@
 
 ### Sub Category  
 
-Study-bpy
+Study-bpy  
 [https://github.com/naysok/Study-bpy](https://github.com/naysok/Study-bpy)  
 
 
