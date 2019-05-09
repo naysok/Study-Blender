@@ -4,6 +4,12 @@
 
 ### memo  
 
+
+- Export_3D  
+  - 3D オブジェクトの書き出しの設定について。FBX。  
+  [https://github.com/naysok/Study-Blender/blob/master/Export_3D/Export_3D.md](https://github.com/naysok/Study-Blender/blob/master/Export_3D/Export_3D.md)  
+
+
 - Shader-Normal-Vector  
   - Normal Vector のマテリアルの作り方。  
   [https://github.com/naysok/Study-Blender/blob/master/Shader-Normal-Vector/Shader-Normal-Vector.md](https://github.com/naysok/Study-Blender/blob/master/Shader-Normal-Vector/Shader-Normal-Vector.md)  
