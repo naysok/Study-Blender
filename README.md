@@ -7,22 +7,27 @@
 
 - Export_3D  
   - 3D オブジェクトの書き出しの設定について。FBX。  
-  [https://github.com/naysok/Study-Blender/blob/master/Export_3D/Export_3D.md](https://github.com/naysok/Study-Blender/blob/master/Export_3D/Export_3D.md)  
+  [Export_3D.md](https://github.com/naysok/Study-Blender/blob/master/Export_3D/Export_3D.md)  
+
+
+- Import_3D  
+  - 3D オブジェクトの読み込みについて。  
+  [Import_3D.md](https://github.com/naysok/Study-Blender/blob/master/Import_3D/Import_3D.md)  
 
 
 - Shader-Normal-Vector  
   - Normal Vector のマテリアルの作り方。  
-  [https://github.com/naysok/Study-Blender/blob/master/Shader-Normal-Vector/Shader-Normal-Vector.md](https://github.com/naysok/Study-Blender/blob/master/Shader-Normal-Vector/Shader-Normal-Vector.md)  
+  [Shader-Normal-Vector.md](https://github.com/naysok/Study-Blender/blob/master/Shader-Normal-Vector/Shader-Normal-Vector.md)  
 
 
 - Studio
   - 背景用の板の作り方。  
-  [https://github.com/naysok/Study-Blender/blob/master/Studio/Studio.md](https://github.com/naysok/Study-Blender/blob/master/Studio/Studio.md)  
+  [Studio.md](https://github.com/naysok/Study-Blender/blob/master/Studio/Studio.md)  
 
 
 - Texture-Alpha  
   - 透過素材の貼り方。  
-  [https://github.com/naysok/Study-Blender/blob/master/Texture-Alpha/Texture-Alpha.md](https://github.com/naysok/Study-Blender/blob/master/Texture-Alpha/Texture-Alpha.md)  
+  [Texture-Alpha.md](https://github.com/naysok/Study-Blender/blob/master/Texture-Alpha/Texture-Alpha.md)  
 
 
 ---  
