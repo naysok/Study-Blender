@@ -1,0 +1,2170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author />
+      <authoring_tool>Rhinoceros</authoring_tool>
+      <comments>Output from Rhinoceros COLLADA Exporter</comments>
+      <copyright />
+      <source_data />
+    </contributor>
+    <created>2019-05-10T07:25:37Z</created>
+    <modified>2019-05-10T07:25:37Z</modified>
+    <unit meter="0.001" name="millimeters" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_cameras>
+    <camera id="Camera-Perspective" name="Camera-Perspective">
+      <optics>
+        <technique_common>
+          <perspective>
+            <xfov>48.368242</xfov>
+            <aspect_ratio>1.871186</aspect_ratio>
+            <znear>15.340701</znear>
+            <zfar>27.883000</zfar>
+          </perspective>
+        </technique_common>
+      </optics>
+    </camera>
+    <camera id="Camera-Top" name="Camera-Top">
+      <optics>
+        <technique_common>
+          <orthographic>
+            <xmag>1.0</xmag>
+            <aspect_ratio>1.874150</aspect_ratio>
+            <znear>621.532881</znear>
+            <zfar>623.533125</zfar>
+          </orthographic>
+        </technique_common>
+      </optics>
+    </camera>
+    <camera id="Camera-Front" name="Camera-Front">
+      <optics>
+        <technique_common>
+          <orthographic>
+            <xmag>1.0</xmag>
+            <aspect_ratio>1.886986</aspect_ratio>
+            <znear>0.005000</znear>
+            <zfar>1049.999750</zfar>
+          </orthographic>
+        </technique_common>
+      </optics>
+    </camera>
+    <camera id="Camera-Right" name="Camera-Right">
+      <optics>
+        <technique_common>
+          <orthographic>
+            <xmag>1.0</xmag>
+            <aspect_ratio>1.880137</aspect_ratio>
+            <znear>829.264499</znear>
+            <zfar>839.265720</zfar>
+          </orthographic>
+        </technique_common>
+      </optics>
+    </camera>
+  </library_cameras>
+  <library_materials>
+    <material id="a87a3441-fef9-4c1f-8ac1-817b0b3a18ef" name="Material-4_4">
+      <instance_effect url="#fx-a87a3441-fef9-4c1f-8ac1-817b0b3a18ef" />
+    </material>
+    <material id="add7ddc3-a18c-4a3b-9ae4-2585f958113a" name="Material-4_3">
+      <instance_effect url="#fx-add7ddc3-a18c-4a3b-9ae4-2585f958113a" />
+    </material>
+    <material id="fae7282c-11ab-46ae-9f73-72e07e245b76" name="Material-4_2">
+      <instance_effect url="#fx-fae7282c-11ab-46ae-9f73-72e07e245b76" />
+    </material>
+    <material id="adb995aa-8754-49e2-9330-13ad4a7c7652" name="Material-4_1">
+      <instance_effect url="#fx-adb995aa-8754-49e2-9330-13ad4a7c7652" />
+    </material>
+    <material id="c5b7e7df-6c8b-43d6-9375-62cfafc8da10" name="Material-4_0">
+      <instance_effect url="#fx-c5b7e7df-6c8b-43d6-9375-62cfafc8da10" />
+    </material>
+    <material id="a3d721d5-5b33-46db-acf6-f91a792ff5af" name="Material-3_4">
+      <instance_effect url="#fx-a3d721d5-5b33-46db-acf6-f91a792ff5af" />
+    </material>
+    <material id="ac1418bc-f789-4b43-ad6c-a6968f7599cd" name="Material-3_3">
+      <instance_effect url="#fx-ac1418bc-f789-4b43-ad6c-a6968f7599cd" />
+    </material>
+    <material id="a48c6138-52ea-419a-bbb8-70beb7557fda" name="Material-3_2">
+      <instance_effect url="#fx-a48c6138-52ea-419a-bbb8-70beb7557fda" />
+    </material>
+    <material id="f71d0e9a-83f7-4293-9c04-692493ac9078" name="Material-3_1">
+      <instance_effect url="#fx-f71d0e9a-83f7-4293-9c04-692493ac9078" />
+    </material>
+    <material id="fd903e1c-4b91-4146-a8e6-2bcc0e9739c9" name="Material-3_0">
+      <instance_effect url="#fx-fd903e1c-4b91-4146-a8e6-2bcc0e9739c9" />
+    </material>
+    <material id="a2a6d254-ed64-4709-9572-47ad0ccf7039" name="Material-2_4">
+      <instance_effect url="#fx-a2a6d254-ed64-4709-9572-47ad0ccf7039" />
+    </material>
+    <material id="a80c38b0-bb87-4305-8f8c-c00c8346a524" name="Material-2_3">
+      <instance_effect url="#fx-a80c38b0-bb87-4305-8f8c-c00c8346a524" />
+    </material>
+    <material id="a6743d49-5185-444f-b5b5-f85f6e4a1fdb" name="Material-2_2">
+      <instance_effect url="#fx-a6743d49-5185-444f-b5b5-f85f6e4a1fdb" />
+    </material>
+    <material id="a1dbda9c-bd91-4a1a-9f5d-920bee107e0b" name="Material-2_1">
+      <instance_effect url="#fx-a1dbda9c-bd91-4a1a-9f5d-920bee107e0b" />
+    </material>
+    <material id="a42f589c-75f5-49f6-8ed0-9b21c75a0d01" name="Material-2_0">
+      <instance_effect url="#fx-a42f589c-75f5-49f6-8ed0-9b21c75a0d01" />
+    </material>
+    <material id="a75addfa-3633-41a5-8473-7db483b9639e" name="Material-1_4">
+      <instance_effect url="#fx-a75addfa-3633-41a5-8473-7db483b9639e" />
+    </material>
+    <material id="b50ee398-0a28-40aa-9a87-6ed03ec20223" name="Material-1_3">
+      <instance_effect url="#fx-b50ee398-0a28-40aa-9a87-6ed03ec20223" />
+    </material>
+    <material id="ad852d3a-5ffe-4b61-94df-931829ac0a12" name="Material-1_2">
+      <instance_effect url="#fx-ad852d3a-5ffe-4b61-94df-931829ac0a12" />
+    </material>
+    <material id="ae86bb7a-d355-4a75-b69c-e4711ccfb9ae" name="Material-1_1">
+      <instance_effect url="#fx-ae86bb7a-d355-4a75-b69c-e4711ccfb9ae" />
+    </material>
+    <material id="ef3789a0-9eca-4c21-82fc-daba7d52f7ee" name="Material-1_0">
+      <instance_effect url="#fx-ef3789a0-9eca-4c21-82fc-daba7d52f7ee" />
+    </material>
+    <material id="a9d85e8b-4634-4bba-8607-04fe3986dafb" name="Material-0_4">
+      <instance_effect url="#fx-a9d85e8b-4634-4bba-8607-04fe3986dafb" />
+    </material>
+    <material id="adb0091c-cee7-4328-a876-86f8541e3fa6" name="Material-0_3">
+      <instance_effect url="#fx-adb0091c-cee7-4328-a876-86f8541e3fa6" />
+    </material>
+    <material id="a277a671-3358-4cca-86ae-cb653debf95b" name="Material-0_2">
+      <instance_effect url="#fx-a277a671-3358-4cca-86ae-cb653debf95b" />
+    </material>
+    <material id="a9cdea23-fe5b-4987-a19c-248d28db94f4" name="Material-0_1">
+      <instance_effect url="#fx-a9cdea23-fe5b-4987-a19c-248d28db94f4" />
+    </material>
+    <material id="a4aaa049-ae43-489f-90ea-c89de92eb63c" name="Material-0_0">
+      <instance_effect url="#fx-a4aaa049-ae43-489f-90ea-c89de92eb63c" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="fx-a87a3441-fef9-4c1f-8ac1-817b0b3a18ef">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.8 0.2 0.2 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-add7ddc3-a18c-4a3b-9ae4-2585f958113a">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.8 0.4 0.4 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-fae7282c-11ab-46ae-9f73-72e07e245b76">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.8 0.6 0.6 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-adb995aa-8754-49e2-9330-13ad4a7c7652">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.8 0.8 0.8 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-c5b7e7df-6c8b-43d6-9375-62cfafc8da10">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.8 1 1 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-a3d721d5-5b33-46db-acf6-f91a792ff5af">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.6 0.2 0.2 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-ac1418bc-f789-4b43-ad6c-a6968f7599cd">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.6 0.4 0.4 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-a48c6138-52ea-419a-bbb8-70beb7557fda">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.6 0.6 0.6 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-f71d0e9a-83f7-4293-9c04-692493ac9078">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.6 0.8 0.8 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-fd903e1c-4b91-4146-a8e6-2bcc0e9739c9">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.6 1 1 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-a2a6d254-ed64-4709-9572-47ad0ccf7039">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.4 0.2 0.2 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-a80c38b0-bb87-4305-8f8c-c00c8346a524">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.4 0.4 0.4 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-a6743d49-5185-444f-b5b5-f85f6e4a1fdb">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.4 0.6 0.6 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-a1dbda9c-bd91-4a1a-9f5d-920bee107e0b">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.4 0.8 0.8 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-a42f589c-75f5-49f6-8ed0-9b21c75a0d01">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.4 1 1 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-a75addfa-3633-41a5-8473-7db483b9639e">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.2 0.2 0.2 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-b50ee398-0a28-40aa-9a87-6ed03ec20223">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.2 0.4 0.4 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-ad852d3a-5ffe-4b61-94df-931829ac0a12">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.2 0.6 0.6 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-ae86bb7a-d355-4a75-b69c-e4711ccfb9ae">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.2 0.8 0.8 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-ef3789a0-9eca-4c21-82fc-daba7d52f7ee">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0.2 1 1 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-a9d85e8b-4634-4bba-8607-04fe3986dafb">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0 0.2 0.2 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-adb0091c-cee7-4328-a876-86f8541e3fa6">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0 0.4 0.4 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-a277a671-3358-4cca-86ae-cb653debf95b">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0 0.6 0.6 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-a9cdea23-fe5b-4987-a19c-248d28db94f4">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0 0.8 0.8 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fx-a4aaa049-ae43-489f-90ea-c89de92eb63c">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color>0 1 1 0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 0</color>
+            </specular>
+            <reflective>
+              <color>1 1 1 0</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>1 1 1 0</color>
+            </transparent>
+            <transparency>
+              <float>1.000000</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0.000000</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="mesh-efd24085-bf4f-44ba-9cf2-b9f84bd27b78">
+      <mesh>
+        <source id="lib-position-efd24085-bf4f-44ba-9cf2-b9f84bd27b78" name="position">
+          <float_array id="lib-position-array-efd24085-bf4f-44ba-9cf2-b9f84bd27b78" count="72" digits="17" magnitude="308">8 8 0 8 9 0 9 8 0 9 9 0 9 8 0 9 8 1 8 8 0 8 8 1 9 9 0 9 9 1 9 8 0 9 8 1 8 9 0 8 9 1 9 9 0 9 9 1 8 8 0 8 8 1 8 9 0 8 9 1 8 8 1 8 9 1 9 8 1 9 9 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-efd24085-bf4f-44ba-9cf2-b9f84bd27b78" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-efd24085-bf4f-44ba-9cf2-b9f84bd27b78" name="normal">
+          <float_array id="lib-normal-array-efd24085-bf4f-44ba-9cf2-b9f84bd27b78" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-efd24085-bf4f-44ba-9cf2-b9f84bd27b78" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-efd24085-bf4f-44ba-9cf2-b9f84bd27b78" name="map1">
+          <float_array id="lib-map1-array-efd24085-bf4f-44ba-9cf2-b9f84bd27b78" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-efd24085-bf4f-44ba-9cf2-b9f84bd27b78" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-efd24085-bf4f-44ba-9cf2-b9f84bd27b78">
+          <input semantic="POSITION" source="#lib-position-efd24085-bf4f-44ba-9cf2-b9f84bd27b78" />
+        </vertices>
+        <triangles count="12" material="material-a87a3441-fef9-4c1f-8ac1-817b0b3a18ef">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-efd24085-bf4f-44ba-9cf2-b9f84bd27b78" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-efd24085-bf4f-44ba-9cf2-b9f84bd27b78" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-efd24085-bf4f-44ba-9cf2-b9f84bd27b78" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-a7bb4495-21aa-43c3-b7db-559eed85b484">
+      <mesh>
+        <source id="lib-position-a7bb4495-21aa-43c3-b7db-559eed85b484" name="position">
+          <float_array id="lib-position-array-a7bb4495-21aa-43c3-b7db-559eed85b484" count="72" digits="17" magnitude="308">8 6 0 8 7 0 9 6 0 9 7 0 9 6 0 9 6 1 8 6 0 8 6 1 9 7 0 9 7 1 9 6 0 9 6 1 8 7 0 8 7 1 9 7 0 9 7 1 8 6 0 8 6 1 8 7 0 8 7 1 8 6 1 8 7 1 9 6 1 9 7 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-a7bb4495-21aa-43c3-b7db-559eed85b484" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-a7bb4495-21aa-43c3-b7db-559eed85b484" name="normal">
+          <float_array id="lib-normal-array-a7bb4495-21aa-43c3-b7db-559eed85b484" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-a7bb4495-21aa-43c3-b7db-559eed85b484" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-a7bb4495-21aa-43c3-b7db-559eed85b484" name="map1">
+          <float_array id="lib-map1-array-a7bb4495-21aa-43c3-b7db-559eed85b484" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-a7bb4495-21aa-43c3-b7db-559eed85b484" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-a7bb4495-21aa-43c3-b7db-559eed85b484">
+          <input semantic="POSITION" source="#lib-position-a7bb4495-21aa-43c3-b7db-559eed85b484" />
+        </vertices>
+        <triangles count="12" material="material-add7ddc3-a18c-4a3b-9ae4-2585f958113a">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-a7bb4495-21aa-43c3-b7db-559eed85b484" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-a7bb4495-21aa-43c3-b7db-559eed85b484" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-a7bb4495-21aa-43c3-b7db-559eed85b484" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-b081e649-ca78-471a-9c6d-989f7d51615d">
+      <mesh>
+        <source id="lib-position-b081e649-ca78-471a-9c6d-989f7d51615d" name="position">
+          <float_array id="lib-position-array-b081e649-ca78-471a-9c6d-989f7d51615d" count="72" digits="17" magnitude="308">8 4 0 8 5 0 9 4 0 9 5 0 9 4 0 9 4 1 8 4 0 8 4 1 9 5 0 9 5 1 9 4 0 9 4 1 8 5 0 8 5 1 9 5 0 9 5 1 8 4 0 8 4 1 8 5 0 8 5 1 8 4 1 8 5 1 9 4 1 9 5 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-b081e649-ca78-471a-9c6d-989f7d51615d" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-b081e649-ca78-471a-9c6d-989f7d51615d" name="normal">
+          <float_array id="lib-normal-array-b081e649-ca78-471a-9c6d-989f7d51615d" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-b081e649-ca78-471a-9c6d-989f7d51615d" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-b081e649-ca78-471a-9c6d-989f7d51615d" name="map1">
+          <float_array id="lib-map1-array-b081e649-ca78-471a-9c6d-989f7d51615d" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-b081e649-ca78-471a-9c6d-989f7d51615d" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-b081e649-ca78-471a-9c6d-989f7d51615d">
+          <input semantic="POSITION" source="#lib-position-b081e649-ca78-471a-9c6d-989f7d51615d" />
+        </vertices>
+        <triangles count="12" material="material-fae7282c-11ab-46ae-9f73-72e07e245b76">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-b081e649-ca78-471a-9c6d-989f7d51615d" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-b081e649-ca78-471a-9c6d-989f7d51615d" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-b081e649-ca78-471a-9c6d-989f7d51615d" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-a8e6a753-2a0e-45f5-9c9b-cacf54e34035">
+      <mesh>
+        <source id="lib-position-a8e6a753-2a0e-45f5-9c9b-cacf54e34035" name="position">
+          <float_array id="lib-position-array-a8e6a753-2a0e-45f5-9c9b-cacf54e34035" count="72" digits="17" magnitude="308">8 2 0 8 3 0 9 2 0 9 3 0 9 2 0 9 2 1 8 2 0 8 2 1 9 3 0 9 3 1 9 2 0 9 2 1 8 3 0 8 3 1 9 3 0 9 3 1 8 2 0 8 2 1 8 3 0 8 3 1 8 2 1 8 3 1 9 2 1 9 3 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-a8e6a753-2a0e-45f5-9c9b-cacf54e34035" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-a8e6a753-2a0e-45f5-9c9b-cacf54e34035" name="normal">
+          <float_array id="lib-normal-array-a8e6a753-2a0e-45f5-9c9b-cacf54e34035" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-a8e6a753-2a0e-45f5-9c9b-cacf54e34035" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-a8e6a753-2a0e-45f5-9c9b-cacf54e34035" name="map1">
+          <float_array id="lib-map1-array-a8e6a753-2a0e-45f5-9c9b-cacf54e34035" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-a8e6a753-2a0e-45f5-9c9b-cacf54e34035" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-a8e6a753-2a0e-45f5-9c9b-cacf54e34035">
+          <input semantic="POSITION" source="#lib-position-a8e6a753-2a0e-45f5-9c9b-cacf54e34035" />
+        </vertices>
+        <triangles count="12" material="material-adb995aa-8754-49e2-9330-13ad4a7c7652">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-a8e6a753-2a0e-45f5-9c9b-cacf54e34035" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-a8e6a753-2a0e-45f5-9c9b-cacf54e34035" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-a8e6a753-2a0e-45f5-9c9b-cacf54e34035" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-a447888c-60c2-4c4a-954d-6ce1b567c9c4">
+      <mesh>
+        <source id="lib-position-a447888c-60c2-4c4a-954d-6ce1b567c9c4" name="position">
+          <float_array id="lib-position-array-a447888c-60c2-4c4a-954d-6ce1b567c9c4" count="72" digits="17" magnitude="308">8 0 0 8 1 0 9 0 0 9 1 0 9 0 0 9 0 1 8 0 0 8 0 1 9 1 0 9 1 1 9 0 0 9 0 1 8 1 0 8 1 1 9 1 0 9 1 1 8 0 0 8 0 1 8 1 0 8 1 1 8 0 1 8 1 1 9 0 1 9 1 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-a447888c-60c2-4c4a-954d-6ce1b567c9c4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-a447888c-60c2-4c4a-954d-6ce1b567c9c4" name="normal">
+          <float_array id="lib-normal-array-a447888c-60c2-4c4a-954d-6ce1b567c9c4" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-a447888c-60c2-4c4a-954d-6ce1b567c9c4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-a447888c-60c2-4c4a-954d-6ce1b567c9c4" name="map1">
+          <float_array id="lib-map1-array-a447888c-60c2-4c4a-954d-6ce1b567c9c4" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-a447888c-60c2-4c4a-954d-6ce1b567c9c4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-a447888c-60c2-4c4a-954d-6ce1b567c9c4">
+          <input semantic="POSITION" source="#lib-position-a447888c-60c2-4c4a-954d-6ce1b567c9c4" />
+        </vertices>
+        <triangles count="12" material="material-c5b7e7df-6c8b-43d6-9375-62cfafc8da10">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-a447888c-60c2-4c4a-954d-6ce1b567c9c4" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-a447888c-60c2-4c4a-954d-6ce1b567c9c4" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-a447888c-60c2-4c4a-954d-6ce1b567c9c4" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-e081af23-2218-45d7-b9d3-476e10e1a721">
+      <mesh>
+        <source id="lib-position-e081af23-2218-45d7-b9d3-476e10e1a721" name="position">
+          <float_array id="lib-position-array-e081af23-2218-45d7-b9d3-476e10e1a721" count="72" digits="17" magnitude="308">6 8 0 6 9 0 7 8 0 7 9 0 7 8 0 7 8 1 6 8 0 6 8 1 7 9 0 7 9 1 7 8 0 7 8 1 6 9 0 6 9 1 7 9 0 7 9 1 6 8 0 6 8 1 6 9 0 6 9 1 6 8 1 6 9 1 7 8 1 7 9 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-e081af23-2218-45d7-b9d3-476e10e1a721" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-e081af23-2218-45d7-b9d3-476e10e1a721" name="normal">
+          <float_array id="lib-normal-array-e081af23-2218-45d7-b9d3-476e10e1a721" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-e081af23-2218-45d7-b9d3-476e10e1a721" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-e081af23-2218-45d7-b9d3-476e10e1a721" name="map1">
+          <float_array id="lib-map1-array-e081af23-2218-45d7-b9d3-476e10e1a721" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-e081af23-2218-45d7-b9d3-476e10e1a721" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-e081af23-2218-45d7-b9d3-476e10e1a721">
+          <input semantic="POSITION" source="#lib-position-e081af23-2218-45d7-b9d3-476e10e1a721" />
+        </vertices>
+        <triangles count="12" material="material-a3d721d5-5b33-46db-acf6-f91a792ff5af">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-e081af23-2218-45d7-b9d3-476e10e1a721" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-e081af23-2218-45d7-b9d3-476e10e1a721" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-e081af23-2218-45d7-b9d3-476e10e1a721" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-e3cd9f16-87db-4077-a254-ec218bf5c4a4">
+      <mesh>
+        <source id="lib-position-e3cd9f16-87db-4077-a254-ec218bf5c4a4" name="position">
+          <float_array id="lib-position-array-e3cd9f16-87db-4077-a254-ec218bf5c4a4" count="72" digits="17" magnitude="308">6 6 0 6 7 0 7 6 0 7 7 0 7 6 0 7 6 1 6 6 0 6 6 1 7 7 0 7 7 1 7 6 0 7 6 1 6 7 0 6 7 1 7 7 0 7 7 1 6 6 0 6 6 1 6 7 0 6 7 1 6 6 1 6 7 1 7 6 1 7 7 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-e3cd9f16-87db-4077-a254-ec218bf5c4a4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-e3cd9f16-87db-4077-a254-ec218bf5c4a4" name="normal">
+          <float_array id="lib-normal-array-e3cd9f16-87db-4077-a254-ec218bf5c4a4" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-e3cd9f16-87db-4077-a254-ec218bf5c4a4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-e3cd9f16-87db-4077-a254-ec218bf5c4a4" name="map1">
+          <float_array id="lib-map1-array-e3cd9f16-87db-4077-a254-ec218bf5c4a4" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-e3cd9f16-87db-4077-a254-ec218bf5c4a4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-e3cd9f16-87db-4077-a254-ec218bf5c4a4">
+          <input semantic="POSITION" source="#lib-position-e3cd9f16-87db-4077-a254-ec218bf5c4a4" />
+        </vertices>
+        <triangles count="12" material="material-ac1418bc-f789-4b43-ad6c-a6968f7599cd">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-e3cd9f16-87db-4077-a254-ec218bf5c4a4" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-e3cd9f16-87db-4077-a254-ec218bf5c4a4" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-e3cd9f16-87db-4077-a254-ec218bf5c4a4" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-d000a638-09ae-4428-8e03-8428d8468d75">
+      <mesh>
+        <source id="lib-position-d000a638-09ae-4428-8e03-8428d8468d75" name="position">
+          <float_array id="lib-position-array-d000a638-09ae-4428-8e03-8428d8468d75" count="72" digits="17" magnitude="308">6 4 0 6 5 0 7 4 0 7 5 0 7 4 0 7 4 1 6 4 0 6 4 1 7 5 0 7 5 1 7 4 0 7 4 1 6 5 0 6 5 1 7 5 0 7 5 1 6 4 0 6 4 1 6 5 0 6 5 1 6 4 1 6 5 1 7 4 1 7 5 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-d000a638-09ae-4428-8e03-8428d8468d75" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-d000a638-09ae-4428-8e03-8428d8468d75" name="normal">
+          <float_array id="lib-normal-array-d000a638-09ae-4428-8e03-8428d8468d75" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-d000a638-09ae-4428-8e03-8428d8468d75" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-d000a638-09ae-4428-8e03-8428d8468d75" name="map1">
+          <float_array id="lib-map1-array-d000a638-09ae-4428-8e03-8428d8468d75" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-d000a638-09ae-4428-8e03-8428d8468d75" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-d000a638-09ae-4428-8e03-8428d8468d75">
+          <input semantic="POSITION" source="#lib-position-d000a638-09ae-4428-8e03-8428d8468d75" />
+        </vertices>
+        <triangles count="12" material="material-a48c6138-52ea-419a-bbb8-70beb7557fda">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-d000a638-09ae-4428-8e03-8428d8468d75" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-d000a638-09ae-4428-8e03-8428d8468d75" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-d000a638-09ae-4428-8e03-8428d8468d75" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-a30b3766-b659-4a2b-b43d-826476053601">
+      <mesh>
+        <source id="lib-position-a30b3766-b659-4a2b-b43d-826476053601" name="position">
+          <float_array id="lib-position-array-a30b3766-b659-4a2b-b43d-826476053601" count="72" digits="17" magnitude="308">6 2 0 6 3 0 7 2 0 7 3 0 7 2 0 7 2 1 6 2 0 6 2 1 7 3 0 7 3 1 7 2 0 7 2 1 6 3 0 6 3 1 7 3 0 7 3 1 6 2 0 6 2 1 6 3 0 6 3 1 6 2 1 6 3 1 7 2 1 7 3 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-a30b3766-b659-4a2b-b43d-826476053601" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-a30b3766-b659-4a2b-b43d-826476053601" name="normal">
+          <float_array id="lib-normal-array-a30b3766-b659-4a2b-b43d-826476053601" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-a30b3766-b659-4a2b-b43d-826476053601" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-a30b3766-b659-4a2b-b43d-826476053601" name="map1">
+          <float_array id="lib-map1-array-a30b3766-b659-4a2b-b43d-826476053601" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-a30b3766-b659-4a2b-b43d-826476053601" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-a30b3766-b659-4a2b-b43d-826476053601">
+          <input semantic="POSITION" source="#lib-position-a30b3766-b659-4a2b-b43d-826476053601" />
+        </vertices>
+        <triangles count="12" material="material-f71d0e9a-83f7-4293-9c04-692493ac9078">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-a30b3766-b659-4a2b-b43d-826476053601" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-a30b3766-b659-4a2b-b43d-826476053601" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-a30b3766-b659-4a2b-b43d-826476053601" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-fd84bac8-56ef-479b-a976-0ae0895776a2">
+      <mesh>
+        <source id="lib-position-fd84bac8-56ef-479b-a976-0ae0895776a2" name="position">
+          <float_array id="lib-position-array-fd84bac8-56ef-479b-a976-0ae0895776a2" count="72" digits="17" magnitude="308">6 0 0 6 1 0 7 0 0 7 1 0 7 0 0 7 0 1 6 0 0 6 0 1 7 1 0 7 1 1 7 0 0 7 0 1 6 1 0 6 1 1 7 1 0 7 1 1 6 0 0 6 0 1 6 1 0 6 1 1 6 0 1 6 1 1 7 0 1 7 1 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-fd84bac8-56ef-479b-a976-0ae0895776a2" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-fd84bac8-56ef-479b-a976-0ae0895776a2" name="normal">
+          <float_array id="lib-normal-array-fd84bac8-56ef-479b-a976-0ae0895776a2" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-fd84bac8-56ef-479b-a976-0ae0895776a2" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-fd84bac8-56ef-479b-a976-0ae0895776a2" name="map1">
+          <float_array id="lib-map1-array-fd84bac8-56ef-479b-a976-0ae0895776a2" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-fd84bac8-56ef-479b-a976-0ae0895776a2" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-fd84bac8-56ef-479b-a976-0ae0895776a2">
+          <input semantic="POSITION" source="#lib-position-fd84bac8-56ef-479b-a976-0ae0895776a2" />
+        </vertices>
+        <triangles count="12" material="material-fd903e1c-4b91-4146-a8e6-2bcc0e9739c9">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-fd84bac8-56ef-479b-a976-0ae0895776a2" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-fd84bac8-56ef-479b-a976-0ae0895776a2" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-fd84bac8-56ef-479b-a976-0ae0895776a2" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-d6d40ec2-9288-43ed-9463-259bfe1a6225">
+      <mesh>
+        <source id="lib-position-d6d40ec2-9288-43ed-9463-259bfe1a6225" name="position">
+          <float_array id="lib-position-array-d6d40ec2-9288-43ed-9463-259bfe1a6225" count="72" digits="17" magnitude="308">4 8 0 4 9 0 5 8 0 5 9 0 5 8 0 5 8 1 4 8 0 4 8 1 5 9 0 5 9 1 5 8 0 5 8 1 4 9 0 4 9 1 5 9 0 5 9 1 4 8 0 4 8 1 4 9 0 4 9 1 4 8 1 4 9 1 5 8 1 5 9 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-d6d40ec2-9288-43ed-9463-259bfe1a6225" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-d6d40ec2-9288-43ed-9463-259bfe1a6225" name="normal">
+          <float_array id="lib-normal-array-d6d40ec2-9288-43ed-9463-259bfe1a6225" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-d6d40ec2-9288-43ed-9463-259bfe1a6225" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-d6d40ec2-9288-43ed-9463-259bfe1a6225" name="map1">
+          <float_array id="lib-map1-array-d6d40ec2-9288-43ed-9463-259bfe1a6225" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-d6d40ec2-9288-43ed-9463-259bfe1a6225" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-d6d40ec2-9288-43ed-9463-259bfe1a6225">
+          <input semantic="POSITION" source="#lib-position-d6d40ec2-9288-43ed-9463-259bfe1a6225" />
+        </vertices>
+        <triangles count="12" material="material-a2a6d254-ed64-4709-9572-47ad0ccf7039">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-d6d40ec2-9288-43ed-9463-259bfe1a6225" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-d6d40ec2-9288-43ed-9463-259bfe1a6225" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-d6d40ec2-9288-43ed-9463-259bfe1a6225" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-c2d6481c-f0e4-4ce3-8fbd-b12786afab1f">
+      <mesh>
+        <source id="lib-position-c2d6481c-f0e4-4ce3-8fbd-b12786afab1f" name="position">
+          <float_array id="lib-position-array-c2d6481c-f0e4-4ce3-8fbd-b12786afab1f" count="72" digits="17" magnitude="308">4 6 0 4 7 0 5 6 0 5 7 0 5 6 0 5 6 1 4 6 0 4 6 1 5 7 0 5 7 1 5 6 0 5 6 1 4 7 0 4 7 1 5 7 0 5 7 1 4 6 0 4 6 1 4 7 0 4 7 1 4 6 1 4 7 1 5 6 1 5 7 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-c2d6481c-f0e4-4ce3-8fbd-b12786afab1f" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-c2d6481c-f0e4-4ce3-8fbd-b12786afab1f" name="normal">
+          <float_array id="lib-normal-array-c2d6481c-f0e4-4ce3-8fbd-b12786afab1f" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-c2d6481c-f0e4-4ce3-8fbd-b12786afab1f" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-c2d6481c-f0e4-4ce3-8fbd-b12786afab1f" name="map1">
+          <float_array id="lib-map1-array-c2d6481c-f0e4-4ce3-8fbd-b12786afab1f" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-c2d6481c-f0e4-4ce3-8fbd-b12786afab1f" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-c2d6481c-f0e4-4ce3-8fbd-b12786afab1f">
+          <input semantic="POSITION" source="#lib-position-c2d6481c-f0e4-4ce3-8fbd-b12786afab1f" />
+        </vertices>
+        <triangles count="12" material="material-a80c38b0-bb87-4305-8f8c-c00c8346a524">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-c2d6481c-f0e4-4ce3-8fbd-b12786afab1f" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-c2d6481c-f0e4-4ce3-8fbd-b12786afab1f" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-c2d6481c-f0e4-4ce3-8fbd-b12786afab1f" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-b1eea5e7-a514-4822-90e6-2b2cf411de98">
+      <mesh>
+        <source id="lib-position-b1eea5e7-a514-4822-90e6-2b2cf411de98" name="position">
+          <float_array id="lib-position-array-b1eea5e7-a514-4822-90e6-2b2cf411de98" count="72" digits="17" magnitude="308">4 4 0 4 5 0 5 4 0 5 5 0 5 4 0 5 4 1 4 4 0 4 4 1 5 5 0 5 5 1 5 4 0 5 4 1 4 5 0 4 5 1 5 5 0 5 5 1 4 4 0 4 4 1 4 5 0 4 5 1 4 4 1 4 5 1 5 4 1 5 5 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-b1eea5e7-a514-4822-90e6-2b2cf411de98" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-b1eea5e7-a514-4822-90e6-2b2cf411de98" name="normal">
+          <float_array id="lib-normal-array-b1eea5e7-a514-4822-90e6-2b2cf411de98" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-b1eea5e7-a514-4822-90e6-2b2cf411de98" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-b1eea5e7-a514-4822-90e6-2b2cf411de98" name="map1">
+          <float_array id="lib-map1-array-b1eea5e7-a514-4822-90e6-2b2cf411de98" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-b1eea5e7-a514-4822-90e6-2b2cf411de98" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-b1eea5e7-a514-4822-90e6-2b2cf411de98">
+          <input semantic="POSITION" source="#lib-position-b1eea5e7-a514-4822-90e6-2b2cf411de98" />
+        </vertices>
+        <triangles count="12" material="material-a6743d49-5185-444f-b5b5-f85f6e4a1fdb">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-b1eea5e7-a514-4822-90e6-2b2cf411de98" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-b1eea5e7-a514-4822-90e6-2b2cf411de98" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-b1eea5e7-a514-4822-90e6-2b2cf411de98" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-a70a7ed4-ae48-44f6-b086-255b40525cfc">
+      <mesh>
+        <source id="lib-position-a70a7ed4-ae48-44f6-b086-255b40525cfc" name="position">
+          <float_array id="lib-position-array-a70a7ed4-ae48-44f6-b086-255b40525cfc" count="72" digits="17" magnitude="308">4 2 0 4 3 0 5 2 0 5 3 0 5 2 0 5 2 1 4 2 0 4 2 1 5 3 0 5 3 1 5 2 0 5 2 1 4 3 0 4 3 1 5 3 0 5 3 1 4 2 0 4 2 1 4 3 0 4 3 1 4 2 1 4 3 1 5 2 1 5 3 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-a70a7ed4-ae48-44f6-b086-255b40525cfc" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-a70a7ed4-ae48-44f6-b086-255b40525cfc" name="normal">
+          <float_array id="lib-normal-array-a70a7ed4-ae48-44f6-b086-255b40525cfc" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-a70a7ed4-ae48-44f6-b086-255b40525cfc" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-a70a7ed4-ae48-44f6-b086-255b40525cfc" name="map1">
+          <float_array id="lib-map1-array-a70a7ed4-ae48-44f6-b086-255b40525cfc" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-a70a7ed4-ae48-44f6-b086-255b40525cfc" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-a70a7ed4-ae48-44f6-b086-255b40525cfc">
+          <input semantic="POSITION" source="#lib-position-a70a7ed4-ae48-44f6-b086-255b40525cfc" />
+        </vertices>
+        <triangles count="12" material="material-a1dbda9c-bd91-4a1a-9f5d-920bee107e0b">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-a70a7ed4-ae48-44f6-b086-255b40525cfc" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-a70a7ed4-ae48-44f6-b086-255b40525cfc" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-a70a7ed4-ae48-44f6-b086-255b40525cfc" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-a096394d-f37c-46e9-876b-fcb54b777463">
+      <mesh>
+        <source id="lib-position-a096394d-f37c-46e9-876b-fcb54b777463" name="position">
+          <float_array id="lib-position-array-a096394d-f37c-46e9-876b-fcb54b777463" count="72" digits="17" magnitude="308">4 0 0 4 1 0 5 0 0 5 1 0 5 0 0 5 0 1 4 0 0 4 0 1 5 1 0 5 1 1 5 0 0 5 0 1 4 1 0 4 1 1 5 1 0 5 1 1 4 0 0 4 0 1 4 1 0 4 1 1 4 0 1 4 1 1 5 0 1 5 1 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-a096394d-f37c-46e9-876b-fcb54b777463" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-a096394d-f37c-46e9-876b-fcb54b777463" name="normal">
+          <float_array id="lib-normal-array-a096394d-f37c-46e9-876b-fcb54b777463" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-a096394d-f37c-46e9-876b-fcb54b777463" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-a096394d-f37c-46e9-876b-fcb54b777463" name="map1">
+          <float_array id="lib-map1-array-a096394d-f37c-46e9-876b-fcb54b777463" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-a096394d-f37c-46e9-876b-fcb54b777463" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-a096394d-f37c-46e9-876b-fcb54b777463">
+          <input semantic="POSITION" source="#lib-position-a096394d-f37c-46e9-876b-fcb54b777463" />
+        </vertices>
+        <triangles count="12" material="material-a42f589c-75f5-49f6-8ed0-9b21c75a0d01">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-a096394d-f37c-46e9-876b-fcb54b777463" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-a096394d-f37c-46e9-876b-fcb54b777463" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-a096394d-f37c-46e9-876b-fcb54b777463" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-a36a8797-79d6-47f8-abf5-88a92b41fe6e">
+      <mesh>
+        <source id="lib-position-a36a8797-79d6-47f8-abf5-88a92b41fe6e" name="position">
+          <float_array id="lib-position-array-a36a8797-79d6-47f8-abf5-88a92b41fe6e" count="72" digits="17" magnitude="308">2 8 0 2 9 0 3 8 0 3 9 0 3 8 0 3 8 1 2 8 0 2 8 1 3 9 0 3 9 1 3 8 0 3 8 1 2 9 0 2 9 1 3 9 0 3 9 1 2 8 0 2 8 1 2 9 0 2 9 1 2 8 1 2 9 1 3 8 1 3 9 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-a36a8797-79d6-47f8-abf5-88a92b41fe6e" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-a36a8797-79d6-47f8-abf5-88a92b41fe6e" name="normal">
+          <float_array id="lib-normal-array-a36a8797-79d6-47f8-abf5-88a92b41fe6e" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-a36a8797-79d6-47f8-abf5-88a92b41fe6e" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-a36a8797-79d6-47f8-abf5-88a92b41fe6e" name="map1">
+          <float_array id="lib-map1-array-a36a8797-79d6-47f8-abf5-88a92b41fe6e" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-a36a8797-79d6-47f8-abf5-88a92b41fe6e" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-a36a8797-79d6-47f8-abf5-88a92b41fe6e">
+          <input semantic="POSITION" source="#lib-position-a36a8797-79d6-47f8-abf5-88a92b41fe6e" />
+        </vertices>
+        <triangles count="12" material="material-a75addfa-3633-41a5-8473-7db483b9639e">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-a36a8797-79d6-47f8-abf5-88a92b41fe6e" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-a36a8797-79d6-47f8-abf5-88a92b41fe6e" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-a36a8797-79d6-47f8-abf5-88a92b41fe6e" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-ae6bed7e-44bd-4fa9-ab60-f70a6e671dfc">
+      <mesh>
+        <source id="lib-position-ae6bed7e-44bd-4fa9-ab60-f70a6e671dfc" name="position">
+          <float_array id="lib-position-array-ae6bed7e-44bd-4fa9-ab60-f70a6e671dfc" count="72" digits="17" magnitude="308">2 6 0 2 7 0 3 6 0 3 7 0 3 6 0 3 6 1 2 6 0 2 6 1 3 7 0 3 7 1 3 6 0 3 6 1 2 7 0 2 7 1 3 7 0 3 7 1 2 6 0 2 6 1 2 7 0 2 7 1 2 6 1 2 7 1 3 6 1 3 7 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-ae6bed7e-44bd-4fa9-ab60-f70a6e671dfc" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-ae6bed7e-44bd-4fa9-ab60-f70a6e671dfc" name="normal">
+          <float_array id="lib-normal-array-ae6bed7e-44bd-4fa9-ab60-f70a6e671dfc" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-ae6bed7e-44bd-4fa9-ab60-f70a6e671dfc" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-ae6bed7e-44bd-4fa9-ab60-f70a6e671dfc" name="map1">
+          <float_array id="lib-map1-array-ae6bed7e-44bd-4fa9-ab60-f70a6e671dfc" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-ae6bed7e-44bd-4fa9-ab60-f70a6e671dfc" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-ae6bed7e-44bd-4fa9-ab60-f70a6e671dfc">
+          <input semantic="POSITION" source="#lib-position-ae6bed7e-44bd-4fa9-ab60-f70a6e671dfc" />
+        </vertices>
+        <triangles count="12" material="material-b50ee398-0a28-40aa-9a87-6ed03ec20223">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-ae6bed7e-44bd-4fa9-ab60-f70a6e671dfc" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-ae6bed7e-44bd-4fa9-ab60-f70a6e671dfc" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-ae6bed7e-44bd-4fa9-ab60-f70a6e671dfc" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-a35ddb1c-6115-4023-818c-150e6ed40ec3">
+      <mesh>
+        <source id="lib-position-a35ddb1c-6115-4023-818c-150e6ed40ec3" name="position">
+          <float_array id="lib-position-array-a35ddb1c-6115-4023-818c-150e6ed40ec3" count="72" digits="17" magnitude="308">2 4 0 2 5 0 3 4 0 3 5 0 3 4 0 3 4 1 2 4 0 2 4 1 3 5 0 3 5 1 3 4 0 3 4 1 2 5 0 2 5 1 3 5 0 3 5 1 2 4 0 2 4 1 2 5 0 2 5 1 2 4 1 2 5 1 3 4 1 3 5 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-a35ddb1c-6115-4023-818c-150e6ed40ec3" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-a35ddb1c-6115-4023-818c-150e6ed40ec3" name="normal">
+          <float_array id="lib-normal-array-a35ddb1c-6115-4023-818c-150e6ed40ec3" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-a35ddb1c-6115-4023-818c-150e6ed40ec3" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-a35ddb1c-6115-4023-818c-150e6ed40ec3" name="map1">
+          <float_array id="lib-map1-array-a35ddb1c-6115-4023-818c-150e6ed40ec3" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-a35ddb1c-6115-4023-818c-150e6ed40ec3" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-a35ddb1c-6115-4023-818c-150e6ed40ec3">
+          <input semantic="POSITION" source="#lib-position-a35ddb1c-6115-4023-818c-150e6ed40ec3" />
+        </vertices>
+        <triangles count="12" material="material-ad852d3a-5ffe-4b61-94df-931829ac0a12">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-a35ddb1c-6115-4023-818c-150e6ed40ec3" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-a35ddb1c-6115-4023-818c-150e6ed40ec3" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-a35ddb1c-6115-4023-818c-150e6ed40ec3" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-ad6ecdcd-45bc-4829-a658-58bf5aac5ef0">
+      <mesh>
+        <source id="lib-position-ad6ecdcd-45bc-4829-a658-58bf5aac5ef0" name="position">
+          <float_array id="lib-position-array-ad6ecdcd-45bc-4829-a658-58bf5aac5ef0" count="72" digits="17" magnitude="308">2 2 0 2 3 0 3 2 0 3 3 0 3 2 0 3 2 1 2 2 0 2 2 1 3 3 0 3 3 1 3 2 0 3 2 1 2 3 0 2 3 1 3 3 0 3 3 1 2 2 0 2 2 1 2 3 0 2 3 1 2 2 1 2 3 1 3 2 1 3 3 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-ad6ecdcd-45bc-4829-a658-58bf5aac5ef0" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-ad6ecdcd-45bc-4829-a658-58bf5aac5ef0" name="normal">
+          <float_array id="lib-normal-array-ad6ecdcd-45bc-4829-a658-58bf5aac5ef0" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-ad6ecdcd-45bc-4829-a658-58bf5aac5ef0" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-ad6ecdcd-45bc-4829-a658-58bf5aac5ef0" name="map1">
+          <float_array id="lib-map1-array-ad6ecdcd-45bc-4829-a658-58bf5aac5ef0" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-ad6ecdcd-45bc-4829-a658-58bf5aac5ef0" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-ad6ecdcd-45bc-4829-a658-58bf5aac5ef0">
+          <input semantic="POSITION" source="#lib-position-ad6ecdcd-45bc-4829-a658-58bf5aac5ef0" />
+        </vertices>
+        <triangles count="12" material="material-ae86bb7a-d355-4a75-b69c-e4711ccfb9ae">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-ad6ecdcd-45bc-4829-a658-58bf5aac5ef0" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-ad6ecdcd-45bc-4829-a658-58bf5aac5ef0" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-ad6ecdcd-45bc-4829-a658-58bf5aac5ef0" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-a5bb637c-d594-49c7-9282-422c4030d043">
+      <mesh>
+        <source id="lib-position-a5bb637c-d594-49c7-9282-422c4030d043" name="position">
+          <float_array id="lib-position-array-a5bb637c-d594-49c7-9282-422c4030d043" count="72" digits="17" magnitude="308">2 0 0 2 1 0 3 0 0 3 1 0 3 0 0 3 0 1 2 0 0 2 0 1 3 1 0 3 1 1 3 0 0 3 0 1 2 1 0 2 1 1 3 1 0 3 1 1 2 0 0 2 0 1 2 1 0 2 1 1 2 0 1 2 1 1 3 0 1 3 1 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-a5bb637c-d594-49c7-9282-422c4030d043" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-a5bb637c-d594-49c7-9282-422c4030d043" name="normal">
+          <float_array id="lib-normal-array-a5bb637c-d594-49c7-9282-422c4030d043" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-a5bb637c-d594-49c7-9282-422c4030d043" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-a5bb637c-d594-49c7-9282-422c4030d043" name="map1">
+          <float_array id="lib-map1-array-a5bb637c-d594-49c7-9282-422c4030d043" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-a5bb637c-d594-49c7-9282-422c4030d043" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-a5bb637c-d594-49c7-9282-422c4030d043">
+          <input semantic="POSITION" source="#lib-position-a5bb637c-d594-49c7-9282-422c4030d043" />
+        </vertices>
+        <triangles count="12" material="material-ef3789a0-9eca-4c21-82fc-daba7d52f7ee">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-a5bb637c-d594-49c7-9282-422c4030d043" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-a5bb637c-d594-49c7-9282-422c4030d043" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-a5bb637c-d594-49c7-9282-422c4030d043" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-a2cc6949-11fe-4988-b158-bbbf0aca2f8c">
+      <mesh>
+        <source id="lib-position-a2cc6949-11fe-4988-b158-bbbf0aca2f8c" name="position">
+          <float_array id="lib-position-array-a2cc6949-11fe-4988-b158-bbbf0aca2f8c" count="72" digits="17" magnitude="308">0 8 0 0 9 0 1 8 0 1 9 0 1 8 0 1 8 1 0 8 0 0 8 1 1 9 0 1 9 1 1 8 0 1 8 1 0 9 0 0 9 1 1 9 0 1 9 1 0 8 0 0 8 1 0 9 0 0 9 1 0 8 1 0 9 1 1 8 1 1 9 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-a2cc6949-11fe-4988-b158-bbbf0aca2f8c" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-a2cc6949-11fe-4988-b158-bbbf0aca2f8c" name="normal">
+          <float_array id="lib-normal-array-a2cc6949-11fe-4988-b158-bbbf0aca2f8c" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-a2cc6949-11fe-4988-b158-bbbf0aca2f8c" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-a2cc6949-11fe-4988-b158-bbbf0aca2f8c" name="map1">
+          <float_array id="lib-map1-array-a2cc6949-11fe-4988-b158-bbbf0aca2f8c" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-a2cc6949-11fe-4988-b158-bbbf0aca2f8c" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-a2cc6949-11fe-4988-b158-bbbf0aca2f8c">
+          <input semantic="POSITION" source="#lib-position-a2cc6949-11fe-4988-b158-bbbf0aca2f8c" />
+        </vertices>
+        <triangles count="12" material="material-a9d85e8b-4634-4bba-8607-04fe3986dafb">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-a2cc6949-11fe-4988-b158-bbbf0aca2f8c" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-a2cc6949-11fe-4988-b158-bbbf0aca2f8c" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-a2cc6949-11fe-4988-b158-bbbf0aca2f8c" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-f746f892-5ef8-4a38-8a28-421864caf911">
+      <mesh>
+        <source id="lib-position-f746f892-5ef8-4a38-8a28-421864caf911" name="position">
+          <float_array id="lib-position-array-f746f892-5ef8-4a38-8a28-421864caf911" count="72" digits="17" magnitude="308">0 6 0 0 7 0 1 6 0 1 7 0 1 6 0 1 6 1 0 6 0 0 6 1 1 7 0 1 7 1 1 6 0 1 6 1 0 7 0 0 7 1 1 7 0 1 7 1 0 6 0 0 6 1 0 7 0 0 7 1 0 6 1 0 7 1 1 6 1 1 7 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-f746f892-5ef8-4a38-8a28-421864caf911" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-f746f892-5ef8-4a38-8a28-421864caf911" name="normal">
+          <float_array id="lib-normal-array-f746f892-5ef8-4a38-8a28-421864caf911" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-f746f892-5ef8-4a38-8a28-421864caf911" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-f746f892-5ef8-4a38-8a28-421864caf911" name="map1">
+          <float_array id="lib-map1-array-f746f892-5ef8-4a38-8a28-421864caf911" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-f746f892-5ef8-4a38-8a28-421864caf911" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-f746f892-5ef8-4a38-8a28-421864caf911">
+          <input semantic="POSITION" source="#lib-position-f746f892-5ef8-4a38-8a28-421864caf911" />
+        </vertices>
+        <triangles count="12" material="material-adb0091c-cee7-4328-a876-86f8541e3fa6">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-f746f892-5ef8-4a38-8a28-421864caf911" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-f746f892-5ef8-4a38-8a28-421864caf911" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-f746f892-5ef8-4a38-8a28-421864caf911" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-a62c5da2-baa0-4d57-b9a5-28e00c7c302f">
+      <mesh>
+        <source id="lib-position-a62c5da2-baa0-4d57-b9a5-28e00c7c302f" name="position">
+          <float_array id="lib-position-array-a62c5da2-baa0-4d57-b9a5-28e00c7c302f" count="72" digits="17" magnitude="308">0 4 0 0 5 0 1 4 0 1 5 0 1 4 0 1 4 1 0 4 0 0 4 1 1 5 0 1 5 1 1 4 0 1 4 1 0 5 0 0 5 1 1 5 0 1 5 1 0 4 0 0 4 1 0 5 0 0 5 1 0 4 1 0 5 1 1 4 1 1 5 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-a62c5da2-baa0-4d57-b9a5-28e00c7c302f" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-a62c5da2-baa0-4d57-b9a5-28e00c7c302f" name="normal">
+          <float_array id="lib-normal-array-a62c5da2-baa0-4d57-b9a5-28e00c7c302f" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-a62c5da2-baa0-4d57-b9a5-28e00c7c302f" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-a62c5da2-baa0-4d57-b9a5-28e00c7c302f" name="map1">
+          <float_array id="lib-map1-array-a62c5da2-baa0-4d57-b9a5-28e00c7c302f" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-a62c5da2-baa0-4d57-b9a5-28e00c7c302f" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-a62c5da2-baa0-4d57-b9a5-28e00c7c302f">
+          <input semantic="POSITION" source="#lib-position-a62c5da2-baa0-4d57-b9a5-28e00c7c302f" />
+        </vertices>
+        <triangles count="12" material="material-a277a671-3358-4cca-86ae-cb653debf95b">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-a62c5da2-baa0-4d57-b9a5-28e00c7c302f" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-a62c5da2-baa0-4d57-b9a5-28e00c7c302f" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-a62c5da2-baa0-4d57-b9a5-28e00c7c302f" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-a1f20089-3c70-4fa8-b5e2-51ec138e9845">
+      <mesh>
+        <source id="lib-position-a1f20089-3c70-4fa8-b5e2-51ec138e9845" name="position">
+          <float_array id="lib-position-array-a1f20089-3c70-4fa8-b5e2-51ec138e9845" count="72" digits="17" magnitude="308">0 2 0 0 3 0 1 2 0 1 3 0 1 2 0 1 2 1 0 2 0 0 2 1 1 3 0 1 3 1 1 2 0 1 2 1 0 3 0 0 3 1 1 3 0 1 3 1 0 2 0 0 2 1 0 3 0 0 3 1 0 2 1 0 3 1 1 2 1 1 3 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-a1f20089-3c70-4fa8-b5e2-51ec138e9845" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-a1f20089-3c70-4fa8-b5e2-51ec138e9845" name="normal">
+          <float_array id="lib-normal-array-a1f20089-3c70-4fa8-b5e2-51ec138e9845" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-a1f20089-3c70-4fa8-b5e2-51ec138e9845" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-a1f20089-3c70-4fa8-b5e2-51ec138e9845" name="map1">
+          <float_array id="lib-map1-array-a1f20089-3c70-4fa8-b5e2-51ec138e9845" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-a1f20089-3c70-4fa8-b5e2-51ec138e9845" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-a1f20089-3c70-4fa8-b5e2-51ec138e9845">
+          <input semantic="POSITION" source="#lib-position-a1f20089-3c70-4fa8-b5e2-51ec138e9845" />
+        </vertices>
+        <triangles count="12" material="material-a9cdea23-fe5b-4987-a19c-248d28db94f4">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-a1f20089-3c70-4fa8-b5e2-51ec138e9845" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-a1f20089-3c70-4fa8-b5e2-51ec138e9845" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-a1f20089-3c70-4fa8-b5e2-51ec138e9845" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mesh-d0010e71-bbea-4b01-847c-932f649aa472">
+      <mesh>
+        <source id="lib-position-d0010e71-bbea-4b01-847c-932f649aa472" name="position">
+          <float_array id="lib-position-array-d0010e71-bbea-4b01-847c-932f649aa472" count="72" digits="17" magnitude="308">0 0 0 0 1 0 1 0 0 1 1 0 1 0 0 1 0 1 0 0 0 0 0 1 1 1 0 1 1 1 1 0 0 1 0 1 0 1 0 0 1 1 1 1 0 1 1 1 0 0 0 0 0 1 0 1 0 0 1 1 0 0 1 0 1 1 1 0 1 1 1 1</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-position-array-d0010e71-bbea-4b01-847c-932f649aa472" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-normal-d0010e71-bbea-4b01-847c-932f649aa472" name="normal">
+          <float_array id="lib-normal-array-d0010e71-bbea-4b01-847c-932f649aa472" count="72">0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-normal-array-d0010e71-bbea-4b01-847c-932f649aa472" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lib-map1-d0010e71-bbea-4b01-847c-932f649aa472" name="map1">
+          <float_array id="lib-map1-array-d0010e71-bbea-4b01-847c-932f649aa472" count="48">0.665202 0.333333 0.333333 0.333333 0.665202 0.665202 0.333333 0.665202 0.665202 0.000000 0.333333 0.000000 0.665202 0.331868 0.333333 0.331868 0.998535 0.333333 0.666667 0.333333 0.998535 0.665202 0.666667 0.665202 0.998535 0.000000 0.666667 0.000000 0.998535 0.331868 0.666667 0.331868 0.331868 0.333333 0.000000 0.333333 0.331868 0.665202 0.000000 0.665202 0.331868 0.000000 0.000000 0.000000 0.331868 0.331868 0.000000 0.331868</float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#lib-map1-array-d0010e71-bbea-4b01-847c-932f649aa472" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lib-vertices-d0010e71-bbea-4b01-847c-932f649aa472">
+          <input semantic="POSITION" source="#lib-position-d0010e71-bbea-4b01-847c-932f649aa472" />
+        </vertices>
+        <triangles count="12" material="material-a4aaa049-ae43-489f-90ea-c89de92eb63c">
+          <input offset="0" semantic="VERTEX" source="#lib-vertices-d0010e71-bbea-4b01-847c-932f649aa472" />
+          <input offset="1" semantic="NORMAL" source="#lib-normal-d0010e71-bbea-4b01-847c-932f649aa472" />
+          <input offset="2" semantic="TEXCOORD" source="#lib-map1-d0010e71-bbea-4b01-847c-932f649aa472" />
+          <p>1 1 1 3 3 3 2 2 2 5 5 5 7 7 7 6 6 6 9 9 9 11 11 11 10 10 10 13 13 13 15 15 15 14 14 14 17 17 17 19 19 19 18 18 18 21 21 21 20 20 20 22 22 22 1 1 1 2 2 2 0 0 0 5 5 5 6 6 6 4 4 4 9 9 9 10 10 10 8 8 8 13 13 13 14 14 14 12 12 12 17 17 17 18 18 18 16 16 16 21 21 21 22 22 22 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode">
+      <node id="View-Perspective" name="View-Perspective">
+        <matrix>0.868638 -0.238685 0.434163 13.720950 0.495448 0.418472 -0.761192 -12.053700 0.000000 0.876305 0.481756 10.771019 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_camera url="#Camera-Perspective" />
+      </node>
+      <node id="View-Top" name="View-Top">
+        <matrix>1.000000 0.000000 0.000000 6.637523 0.000000 1.000000 0.000000 6.017107 0.000000 0.000000 1.000000 623.033125 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_camera url="#Camera-Top" />
+      </node>
+      <node id="View-Front" name="View-Front">
+        <matrix>1.000000 0.000000 0.000000 48.834258 0.000000 0.000000 -1.000000 -589.075389 0.000000 1.000000 0.000000 36.736953 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_camera url="#Camera-Front" />
+      </node>
+      <node id="View-Right" name="View-Right">
+        <matrix>0.000000 0.000000 1.000000 838.765720 1.000000 0.000000 0.000000 0.600775 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_camera url="#Camera-Right" />
+      </node>
+      <node id="efd24085-bf4f-44ba-9cf2-b9f84bd27b78">
+        <instance_geometry url="#mesh-efd24085-bf4f-44ba-9cf2-b9f84bd27b78">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-a87a3441-fef9-4c1f-8ac1-817b0b3a18ef" target="#a87a3441-fef9-4c1f-8ac1-817b0b3a18ef" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="a7bb4495-21aa-43c3-b7db-559eed85b484">
+        <instance_geometry url="#mesh-a7bb4495-21aa-43c3-b7db-559eed85b484">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-add7ddc3-a18c-4a3b-9ae4-2585f958113a" target="#add7ddc3-a18c-4a3b-9ae4-2585f958113a" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="b081e649-ca78-471a-9c6d-989f7d51615d">
+        <instance_geometry url="#mesh-b081e649-ca78-471a-9c6d-989f7d51615d">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-fae7282c-11ab-46ae-9f73-72e07e245b76" target="#fae7282c-11ab-46ae-9f73-72e07e245b76" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="a8e6a753-2a0e-45f5-9c9b-cacf54e34035">
+        <instance_geometry url="#mesh-a8e6a753-2a0e-45f5-9c9b-cacf54e34035">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-adb995aa-8754-49e2-9330-13ad4a7c7652" target="#adb995aa-8754-49e2-9330-13ad4a7c7652" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="a447888c-60c2-4c4a-954d-6ce1b567c9c4">
+        <instance_geometry url="#mesh-a447888c-60c2-4c4a-954d-6ce1b567c9c4">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-c5b7e7df-6c8b-43d6-9375-62cfafc8da10" target="#c5b7e7df-6c8b-43d6-9375-62cfafc8da10" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="e081af23-2218-45d7-b9d3-476e10e1a721">
+        <instance_geometry url="#mesh-e081af23-2218-45d7-b9d3-476e10e1a721">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-a3d721d5-5b33-46db-acf6-f91a792ff5af" target="#a3d721d5-5b33-46db-acf6-f91a792ff5af" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="e3cd9f16-87db-4077-a254-ec218bf5c4a4">
+        <instance_geometry url="#mesh-e3cd9f16-87db-4077-a254-ec218bf5c4a4">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-ac1418bc-f789-4b43-ad6c-a6968f7599cd" target="#ac1418bc-f789-4b43-ad6c-a6968f7599cd" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="d000a638-09ae-4428-8e03-8428d8468d75">
+        <instance_geometry url="#mesh-d000a638-09ae-4428-8e03-8428d8468d75">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-a48c6138-52ea-419a-bbb8-70beb7557fda" target="#a48c6138-52ea-419a-bbb8-70beb7557fda" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="a30b3766-b659-4a2b-b43d-826476053601">
+        <instance_geometry url="#mesh-a30b3766-b659-4a2b-b43d-826476053601">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-f71d0e9a-83f7-4293-9c04-692493ac9078" target="#f71d0e9a-83f7-4293-9c04-692493ac9078" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="fd84bac8-56ef-479b-a976-0ae0895776a2">
+        <instance_geometry url="#mesh-fd84bac8-56ef-479b-a976-0ae0895776a2">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-fd903e1c-4b91-4146-a8e6-2bcc0e9739c9" target="#fd903e1c-4b91-4146-a8e6-2bcc0e9739c9" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="d6d40ec2-9288-43ed-9463-259bfe1a6225">
+        <instance_geometry url="#mesh-d6d40ec2-9288-43ed-9463-259bfe1a6225">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-a2a6d254-ed64-4709-9572-47ad0ccf7039" target="#a2a6d254-ed64-4709-9572-47ad0ccf7039" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="c2d6481c-f0e4-4ce3-8fbd-b12786afab1f">
+        <instance_geometry url="#mesh-c2d6481c-f0e4-4ce3-8fbd-b12786afab1f">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-a80c38b0-bb87-4305-8f8c-c00c8346a524" target="#a80c38b0-bb87-4305-8f8c-c00c8346a524" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="b1eea5e7-a514-4822-90e6-2b2cf411de98">
+        <instance_geometry url="#mesh-b1eea5e7-a514-4822-90e6-2b2cf411de98">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-a6743d49-5185-444f-b5b5-f85f6e4a1fdb" target="#a6743d49-5185-444f-b5b5-f85f6e4a1fdb" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="a70a7ed4-ae48-44f6-b086-255b40525cfc">
+        <instance_geometry url="#mesh-a70a7ed4-ae48-44f6-b086-255b40525cfc">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-a1dbda9c-bd91-4a1a-9f5d-920bee107e0b" target="#a1dbda9c-bd91-4a1a-9f5d-920bee107e0b" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="a096394d-f37c-46e9-876b-fcb54b777463">
+        <instance_geometry url="#mesh-a096394d-f37c-46e9-876b-fcb54b777463">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-a42f589c-75f5-49f6-8ed0-9b21c75a0d01" target="#a42f589c-75f5-49f6-8ed0-9b21c75a0d01" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="a36a8797-79d6-47f8-abf5-88a92b41fe6e">
+        <instance_geometry url="#mesh-a36a8797-79d6-47f8-abf5-88a92b41fe6e">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-a75addfa-3633-41a5-8473-7db483b9639e" target="#a75addfa-3633-41a5-8473-7db483b9639e" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="ae6bed7e-44bd-4fa9-ab60-f70a6e671dfc">
+        <instance_geometry url="#mesh-ae6bed7e-44bd-4fa9-ab60-f70a6e671dfc">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-b50ee398-0a28-40aa-9a87-6ed03ec20223" target="#b50ee398-0a28-40aa-9a87-6ed03ec20223" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="a35ddb1c-6115-4023-818c-150e6ed40ec3">
+        <instance_geometry url="#mesh-a35ddb1c-6115-4023-818c-150e6ed40ec3">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-ad852d3a-5ffe-4b61-94df-931829ac0a12" target="#ad852d3a-5ffe-4b61-94df-931829ac0a12" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="ad6ecdcd-45bc-4829-a658-58bf5aac5ef0">
+        <instance_geometry url="#mesh-ad6ecdcd-45bc-4829-a658-58bf5aac5ef0">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-ae86bb7a-d355-4a75-b69c-e4711ccfb9ae" target="#ae86bb7a-d355-4a75-b69c-e4711ccfb9ae" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="a5bb637c-d594-49c7-9282-422c4030d043">
+        <instance_geometry url="#mesh-a5bb637c-d594-49c7-9282-422c4030d043">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-ef3789a0-9eca-4c21-82fc-daba7d52f7ee" target="#ef3789a0-9eca-4c21-82fc-daba7d52f7ee" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="a2cc6949-11fe-4988-b158-bbbf0aca2f8c">
+        <instance_geometry url="#mesh-a2cc6949-11fe-4988-b158-bbbf0aca2f8c">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-a9d85e8b-4634-4bba-8607-04fe3986dafb" target="#a9d85e8b-4634-4bba-8607-04fe3986dafb" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="f746f892-5ef8-4a38-8a28-421864caf911">
+        <instance_geometry url="#mesh-f746f892-5ef8-4a38-8a28-421864caf911">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-adb0091c-cee7-4328-a876-86f8541e3fa6" target="#adb0091c-cee7-4328-a876-86f8541e3fa6" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="a62c5da2-baa0-4d57-b9a5-28e00c7c302f">
+        <instance_geometry url="#mesh-a62c5da2-baa0-4d57-b9a5-28e00c7c302f">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-a277a671-3358-4cca-86ae-cb653debf95b" target="#a277a671-3358-4cca-86ae-cb653debf95b" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="a1f20089-3c70-4fa8-b5e2-51ec138e9845">
+        <instance_geometry url="#mesh-a1f20089-3c70-4fa8-b5e2-51ec138e9845">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-a9cdea23-fe5b-4987-a19c-248d28db94f4" target="#a9cdea23-fe5b-4987-a19c-248d28db94f4" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="d0010e71-bbea-4b01-847c-932f649aa472">
+        <instance_geometry url="#mesh-d0010e71-bbea-4b01-847c-932f649aa472">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material-a4aaa049-ae43-489f-90ea-c89de92eb63c" target="#a4aaa049-ae43-489f-90ea-c89de92eb63c" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode" />
+  </scene>
+</COLLADA>
